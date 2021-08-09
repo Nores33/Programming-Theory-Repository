@@ -42,6 +42,12 @@ public abstract class Weapon : MonoBehaviour
             GameObject impactHole = Instantiate(bulletHole, hit.point, Quaternion.FromToRotation(Vector3.forward, hit.normal));
             Destroy(impactParticle, 2f);
             Destroy(impactHole, 2f);
+
+            Target target = hit.transform.GetComponent<Target>();
+            if(target != null)
+            {
+                target.TakeDamage(damage);
+            }
         }
     }
 }
