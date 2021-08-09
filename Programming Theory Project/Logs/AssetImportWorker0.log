@@ -135,3 +135,70 @@ System memory in use after: 64.8 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1827.
 Total: 1.747900 ms (FindLiveObjects: 0.118400 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.510100 ms  DeleteObjects: 0.080600 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 138.982326 seconds.
+  path: Assets/Scripts/Pistol.cs
+  artifactKey: Guid(8a6537d0ea0e41f49bb2b2964e22e62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pistol.cs using Guid(8a6537d0ea0e41f49bb2b2964e22e62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032e1e10f0e9c03be6504c6941d3979f') in 0.008379 seconds
+  Import took 0.010539 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 1.761200 ms (FindLiveObjects: 0.131700 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.511500 ms  DeleteObjects: 0.072800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 1.759500 ms (FindLiveObjects: 0.135600 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.502800 ms  DeleteObjects: 0.078400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 336.401494 seconds.
+  path: Assets/Scripts/Pistol.cs
+  artifactKey: Guid(8a6537d0ea0e41f49bb2b2964e22e62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pistol.cs using Guid(8a6537d0ea0e41f49bb2b2964e22e62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095390ce268655c83c9c148c1a0f07ab') in 0.006171 seconds
+  Import took 0.008099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.942111 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.015360 seconds
+  Import took 0.029441 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
