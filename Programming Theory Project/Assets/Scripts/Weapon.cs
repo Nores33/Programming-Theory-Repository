@@ -26,10 +26,10 @@ public abstract class Weapon : MonoBehaviour
     protected AudioSource firingSound;
     protected float nextTimeToFire = 0f;
 
-    [SerializeField] Camera gunCam;
-    [SerializeField] ParticleSystem muzzleFlash;
-    [SerializeField] GameObject impactEffect;
-    [SerializeField] GameObject bulletHole;
+    [SerializeField] protected Camera gunCam;
+    [SerializeField] protected ParticleSystem muzzleFlash;
+    [SerializeField] protected GameObject impactEffect;
+    [SerializeField] protected GameObject bulletHole;
 
     protected virtual void Shoot()
     {

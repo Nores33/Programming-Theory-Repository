@@ -8,7 +8,7 @@ public class SubMachineGun : Weapon
     {
         damage = 3f;
         range = 100f;
-        fireRate = .1f;
+        fireRate = 10f;
         firingSound = GetComponent<AudioSource>();
     }
 
