@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//INHERITANCE
 public class Shotgun : Weapon
 {
     private float spread = 5f;
@@ -15,7 +16,6 @@ public class Shotgun : Weapon
         firingSound = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && Time.time >= nextTimeToFire)
@@ -25,6 +25,7 @@ public class Shotgun : Weapon
         }
     }
 
+    //POLYMORPHISM
     protected override void Shoot()
     {
         firingSound.Play();

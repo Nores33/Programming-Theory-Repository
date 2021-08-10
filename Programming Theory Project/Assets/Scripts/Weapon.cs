@@ -8,6 +8,7 @@ public abstract class Weapon : MonoBehaviour
     private float p_Range;
     private float p_FireRate;
 
+    //ENCAPSULATION
     protected float damage
     {
         get { return p_Damage; }
@@ -31,6 +32,7 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField] protected GameObject impactEffect;
     [SerializeField] protected GameObject bulletHole;
 
+    //ABSTRACTION
     protected virtual void Shoot()
     {
         firingSound.Play();

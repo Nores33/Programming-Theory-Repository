@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//INHERITANCE
 public class Pistol : Weapon
 {
     void Start()
@@ -12,7 +13,6 @@ public class Pistol : Weapon
         firingSound = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && Time.time >= nextTimeToFire)
